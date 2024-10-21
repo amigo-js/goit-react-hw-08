@@ -1,0 +1,13 @@
+.link {
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+}
+.greeting {
+    display: flex;
+  margin-left: auto;
+gap: 20px
+;
+}
