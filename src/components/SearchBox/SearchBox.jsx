@@ -1,5 +1,8 @@
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
-import { selectNameFilter, changeFilter } from "../../redux/filters/slice";
+import { changeFilter } from "../../redux/filters/slice";
+
+import { selectNameFilter } from "../../redux/filters/selectors";
+
 import styles from "./SearchBox.module.css";
 
 export default function SearchBox() {
